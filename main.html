@@ -3,12 +3,40 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <style>
+        #container{
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .author{
+            text-align: right;
+            font-style: italic;
+        }
 
+        #container > div{
+            background-color: #FFFFFF;
+            padding: 10px;
+            border: 1px solid #f5f5f5;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+	
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<div id="container">
+		<h2>Testimonials</h2>
+		<div>
+            <p class="testimonial">This product is amazing! I highly recommend it to anyone in need of a solution like this.</p>
+            <p class="author">~John Doe</p>
+        </div>
+        <div>
+            <p class="testimonial">I have been using this for a weeks now and it has completely transformed my workflow.</p>
+            <p class="author">~Jane Smith</p>
+        </div>
+	</div>
 </script>
 
 </body>
